@@ -5,10 +5,12 @@
 }
 
 .btn-cabecalho{
+    margin-left: 20%; 
+    height: 60px;
     color: white;
     width: 10rem;
     background-image: url("../image/bg-cabecalho.jpg");
-    border: 1px solid rgb(252, 252, 252);
+    border: 0.8px solid  rgba(252, 252, 252, 0.582);
 }
 
 .btn-cabecalho b{
@@ -17,5 +19,67 @@
 
 .btn-cabecalho:hover{
     margin-bottom: 7%;
-    border: 1px solid rgb(252, 252, 252);
+    border: 2px solid rgb(252, 252, 252);
+}
+
+.img-dst{
+    width: 33%;
+    height: 430px;
+}
+
+.centraliza{
+    margin: auto;
+}
+
+.teste{
+    margin-top: 1.2%;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+}
+
+.teste h1{
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.friburgo-title{
+    width: 40%;
+    margin-left: 1.6%;  
+    text-align: center;
+}
+
+.friburgo-space{
+    margin-top: 1.8%;
+    width: 59.4%;
+    text-align: center;
+}
+
+.friburgo-space p{
+    font-size: 14pt;
+    margin: 0;
+    padding: 0;
+}
+
+.teste2{
+    display: flex;
+    margin-top: 1.2%;
+    height: 600px;
+    background-image: url("../image/bg-cabecalho.jpg");
+    background-size: cover;
+}
+
+.teste2-2{
+    height: 94%;
+    margin: auto;
+    background-color: rgba(250, 235, 215, 0.356);
+    border-radius: 6px;
+}
+
+.teste3{
+    margin-top: 5px;
+    height: 250px;
+    background-image: url("../image/pombo.jpg");
+    background-size: cover;
 }
