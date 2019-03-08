@@ -1,8 +1,9 @@
 <?php include "cabecalho.php" ?>
         
-    <div class="container">
-        <div class="principal">
+    <main class="container">
+        <div class="slider">
+          <?php include "slide.php" ?>
         </div>
-    </div>
+</main>
 </body>
 </html>
