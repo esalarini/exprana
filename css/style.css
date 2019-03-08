@@ -1,0 +1,22 @@
+.cabecalho{
+    background-color: rgb(29, 32, 29);
+    background-image: url("../image/bg-cabecalho.jpg");
+    background-size: cover;
+}
+
+.btn-cabecalho{
+    color: white;
+    width: 10rem;
+    background-image: url("../image/bg-cabecalho.jpg");
+    border: 1px solid rgb(252, 252, 252);
+}
+
+.btn-cabecalho b{
+    color: white;
+}
+
+.btn-cabecalho:hover{
+    margin-bottom: 7%;
+    border: 1px solid rgb(252, 252, 252);
+
+}
